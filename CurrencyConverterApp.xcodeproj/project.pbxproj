@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		732EEE972971BB3100D9084A /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732EEE962971BB3100D9084A /* PickerViewController.swift */; };
+		732EEE9D2971BE9300D9084A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732EEE9C2971BE9300D9084A /* TabBarController.swift */; };
+		732EEE9F297251B200D9084A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732EEE9E297251B200D9084A /* Model.swift */; };
+		732EEEA2297299BD00D9084A /* CurrencyTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732EEEA0297299BD00D9084A /* CurrencyTableCell.swift */; };
+		732EEEA3297299BD00D9084A /* CurrencyTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 732EEEA1297299BD00D9084A /* CurrencyTableCell.xib */; };
 		734C5F082971A18C002E056B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734C5F072971A18C002E056B /* AppDelegate.swift */; };
 		734C5F0A2971A18C002E056B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734C5F092971A18C002E056B /* SceneDelegate.swift */; };
-		734C5F0C2971A18C002E056B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734C5F0B2971A18C002E056B /* ViewController.swift */; };
+		734C5F0C2971A18C002E056B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734C5F0B2971A18C002E056B /* ListViewController.swift */; };
 		734C5F0F2971A18C002E056B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734C5F0D2971A18C002E056B /* Main.storyboard */; };
 		734C5F112971A18E002E056B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 734C5F102971A18E002E056B /* Assets.xcassets */; };
 		734C5F142971A18E002E056B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734C5F122971A18E002E056B /* LaunchScreen.storyboard */; };
@@ -36,10 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		732EEE962971BB3100D9084A /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		732EEE9C2971BE9300D9084A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		732EEE9E297251B200D9084A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		732EEEA0297299BD00D9084A /* CurrencyTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableCell.swift; sourceTree = "<group>"; };
+		732EEEA1297299BD00D9084A /* CurrencyTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyTableCell.xib; sourceTree = "<group>"; };
 		734C5F042971A18C002E056B /* CurrencyConverterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		734C5F072971A18C002E056B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		734C5F092971A18C002E056B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		734C5F0B2971A18C002E056B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		734C5F0B2971A18C002E056B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		734C5F0E2971A18C002E056B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		734C5F102971A18E002E056B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		734C5F132971A18E002E056B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +111,12 @@
 			children = (
 				734C5F072971A18C002E056B /* AppDelegate.swift */,
 				734C5F092971A18C002E056B /* SceneDelegate.swift */,
-				734C5F0B2971A18C002E056B /* ViewController.swift */,
+				734C5F0B2971A18C002E056B /* ListViewController.swift */,
+				732EEE962971BB3100D9084A /* PickerViewController.swift */,
+				732EEE9E297251B200D9084A /* Model.swift */,
+				732EEE9C2971BE9300D9084A /* TabBarController.swift */,
+				732EEEA0297299BD00D9084A /* CurrencyTableCell.swift */,
+				732EEEA1297299BD00D9084A /* CurrencyTableCell.xib */,
 				734C5F0D2971A18C002E056B /* Main.storyboard */,
 				734C5F102971A18E002E056B /* Assets.xcassets */,
 				734C5F122971A18E002E056B /* LaunchScreen.storyboard */,
@@ -232,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				734C5F142971A18E002E056B /* LaunchScreen.storyboard in Resources */,
+				732EEEA3297299BD00D9084A /* CurrencyTableCell.xib in Resources */,
 				734C5F112971A18E002E056B /* Assets.xcassets in Resources */,
 				734C5F0F2971A18C002E056B /* Main.storyboard in Resources */,
 			);
@@ -258,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				734C5F0C2971A18C002E056B /* ViewController.swift in Sources */,
+				734C5F0C2971A18C002E056B /* ListViewController.swift in Sources */,
 				734C5F082971A18C002E056B /* AppDelegate.swift in Sources */,
+				732EEE972971BB3100D9084A /* PickerViewController.swift in Sources */,
+				732EEE9F297251B200D9084A /* Model.swift in Sources */,
+				732EEEA2297299BD00D9084A /* CurrencyTableCell.swift in Sources */,
+				732EEE9D2971BE9300D9084A /* TabBarController.swift in Sources */,
 				734C5F0A2971A18C002E056B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +464,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,9 +472,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.test.CurrencyConverterApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,6 +495,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,9 +503,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.test.CurrencyConverterApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
