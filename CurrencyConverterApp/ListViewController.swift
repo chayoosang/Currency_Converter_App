@@ -33,41 +33,20 @@ class ListViewController: UIViewController {
         currencyTable.register(currencyTableCellNib, forCellReuseIdentifier: "CurrencyTableCell")
         
         requestJson()
+      
         
     }
     
     func requestJson() {
-        let urlString = "https://open.er-api.com/v6/latest/USD"
-        guard let url = URL(string: urlString) else {
-            return
+        NetworkLayer().requestJson { currencyModel in
+            self.rates = currencyModel.rates.sorted { dic1, dic2 in
+                dic1.key < dic2.key
+            }
+            
+            DispatchQueue.main.async {
+                self.currencyTable.reloadData()
+            }
         }
-                
-        // data task
-        URLSession.shared.dataTask(with: url) { data, response, error in
-            
-            guard let data = data else {
-                return
-            }
-            
-            do{
-                let currencyModel = try JSONDecoder().decode(CurrencyModel.self, from: data)
-                
-                self.rates = currencyModel.rates.sorted { dic1, dic2 in
-                    dic1.key < dic2.key
-                }
-                
-                
-                DispatchQueue.main.async {
-                    self.currencyTable.reloadData()
-                }
-                
-                
-                
-            } catch {
-                print(error)
-            }
-            
-        }.resume()
     }
 
 }
@@ -91,7 +70,6 @@ extension ListViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CurrencyTableCell", for: indexPath) as! CurrencyTableCell
         
 
-        
         cell.countryLabel.text = rates?[indexPath.row].0 ?? ""
         cell.valueLabel.text = String(format: "%.2f", ((rates?[indexPath.row].1 ?? 0) * Double(usdValue)))
         

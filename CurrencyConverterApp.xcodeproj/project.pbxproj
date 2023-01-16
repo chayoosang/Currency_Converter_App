@@ -12,6 +12,7 @@
 		732EEE9F297251B200D9084A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732EEE9E297251B200D9084A /* Model.swift */; };
 		732EEEA2297299BD00D9084A /* CurrencyTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732EEEA0297299BD00D9084A /* CurrencyTableCell.swift */; };
 		732EEEA3297299BD00D9084A /* CurrencyTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 732EEEA1297299BD00D9084A /* CurrencyTableCell.xib */; };
+		732EEEA52973B16600D9084A /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732EEEA42973B16600D9084A /* NetworkLayer.swift */; };
 		734C5F082971A18C002E056B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734C5F072971A18C002E056B /* AppDelegate.swift */; };
 		734C5F0A2971A18C002E056B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734C5F092971A18C002E056B /* SceneDelegate.swift */; };
 		734C5F0C2971A18C002E056B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734C5F0B2971A18C002E056B /* ListViewController.swift */; };
@@ -46,6 +47,7 @@
 		732EEE9E297251B200D9084A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		732EEEA0297299BD00D9084A /* CurrencyTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableCell.swift; sourceTree = "<group>"; };
 		732EEEA1297299BD00D9084A /* CurrencyTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyTableCell.xib; sourceTree = "<group>"; };
+		732EEEA42973B16600D9084A /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
 		734C5F042971A18C002E056B /* CurrencyConverterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		734C5F072971A18C002E056B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		734C5F092971A18C002E056B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				734C5F072971A18C002E056B /* AppDelegate.swift */,
 				734C5F092971A18C002E056B /* SceneDelegate.swift */,
 				734C5F0B2971A18C002E056B /* ListViewController.swift */,
+				732EEEA42973B16600D9084A /* NetworkLayer.swift */,
 				732EEE962971BB3100D9084A /* PickerViewController.swift */,
 				732EEE9E297251B200D9084A /* Model.swift */,
 				732EEE9C2971BE9300D9084A /* TabBarController.swift */,
@@ -278,6 +281,7 @@
 				734C5F082971A18C002E056B /* AppDelegate.swift in Sources */,
 				732EEE972971BB3100D9084A /* PickerViewController.swift in Sources */,
 				732EEE9F297251B200D9084A /* Model.swift in Sources */,
+				732EEEA52973B16600D9084A /* NetworkLayer.swift in Sources */,
 				732EEEA2297299BD00D9084A /* CurrencyTableCell.swift in Sources */,
 				732EEE9D2971BE9300D9084A /* TabBarController.swift in Sources */,
 				734C5F0A2971A18C002E056B /* SceneDelegate.swift in Sources */,

@@ -21,14 +21,13 @@
                         <rect key="frame" x="10" y="10" width="42" height="22"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="22" id="9lp-gN-5du"/>
-                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="22" id="naq-1e-eqe"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRe-5U-myx">
-                        <rect key="frame" x="268" y="10" width="42" height="22"/>
+                        <rect key="frame" x="268" y="12" width="42" height="22"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="22" id="DiJ-JY-DVU"/>
                         </constraints>
@@ -39,9 +38,7 @@
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="hRe-5U-myx" secondAttribute="bottom" constant="10" id="4BU-vO-Ydu"/>
-                    <constraint firstAttribute="bottom" secondItem="eBf-zd-o8I" secondAttribute="bottom" constant="10" id="LFI-AR-Ffl"/>
                     <constraint firstItem="eBf-zd-o8I" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Srz-bi-gUR"/>
-                    <constraint firstItem="hRe-5U-myx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Xkq-7A-nsn"/>
                     <constraint firstItem="eBf-zd-o8I" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="d78-wH-WY0"/>
                     <constraint firstAttribute="trailing" secondItem="hRe-5U-myx" secondAttribute="trailing" constant="10" id="rgL-ID-zU6"/>
                 </constraints>
